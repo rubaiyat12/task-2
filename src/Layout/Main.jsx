@@ -17,7 +17,9 @@ const Main = () => {
             <Banner></Banner>
             <HeadingCart></HeadingCart>
             <Latest></Latest>
+
             <RandomPost></RandomPost>
+            
             
             
             <Outlet></Outlet>
