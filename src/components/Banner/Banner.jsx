@@ -50,8 +50,29 @@ const Banner = () => {
     <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
-      ></div>
+        className='w-full h-full  bg-center bg-cover duration-500'
+      >
+        <div className="absolute flex items-center h-full   
+                  left-0 top-0 ">
+                    <div className='text-white  space-y-7 pl-12 w-1/2'>
+                        
+                        <p>Cost-effective car maintenance services typically focus on efficiency and practicality. Service providers
+                            aim to deliver quality care without compromising on the integrity of the work. </p>
+                        <div>
+                            <button className="btn btn-active btn-primary mr-5">Discover more</button>
+                            
+                        </div>
+
+                    </div>
+                    </div>
+
+      </div>
+
+
+
+
+
+
       {/* Left Arrow */}
       <div className='  absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
         <BsChevronCompactLeft onClick={prevSlide} size={30} />
