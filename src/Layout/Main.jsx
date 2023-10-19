@@ -5,6 +5,7 @@ import Banner from "../components/Banner/Banner";
 import HeadingCart from "../components/HeadingCart/HeadingCart";
 import Latest from "../components/Latest/Latest";
 import RandomPost from "../components/RandomPost/RandomPost";
+import InstagramFeed from "../components/InstagramFeed/InstagramFeed";
 
 
 
@@ -19,6 +20,7 @@ const Main = () => {
             <Latest></Latest>
 
             <RandomPost></RandomPost>
+            <InstagramFeed></InstagramFeed>
             
             
             

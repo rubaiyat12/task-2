@@ -111,6 +111,11 @@ const RandomPost = () => {
             </div>
 
             <Border></Border>
+            <div className='mx-[340px]'>
+            <button className="btn btn-active btn-neutral rounded-full w-[182px]">Load More</button>
+
+            </div>
+            
 
             </div>
            
