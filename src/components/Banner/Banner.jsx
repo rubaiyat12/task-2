@@ -52,16 +52,18 @@ const Banner = () => {
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full  bg-center bg-cover duration-500'
       >
-        <div className="absolute flex items-center h-full   
-                  left-0 top-0 ">
-                    <div className='text-white  space-y-7 pl-12 w-1/2'>
+        <div className=" flex items-center     text-center px-4 py-8  border-2 
+                  shadow-lg md:w-[480px] md:h-[326px] mx-auto absolute top-[230px] left-[450px] right-0 -bottom-14
+                   ">
+                    <div className='text-white     border-white'>
                         
-                        <p>Cost-effective car maintenance services typically focus on efficiency and practicality. Service providers
-                            aim to deliver quality care without compromising on the integrity of the work. </p>
-                        <div>
-                            <button className="btn btn-active btn-primary mr-5">Discover more</button>
+                    <p className='border-b w-[50px] text-[14px] mx-auto border-white  '>SKIN </p>
+                    <p className='md:font-bold'> Six Hyaluronic Serums For Glowing Summer Skin Vivamus Placerat.</p>
+                    <p className='text-[12px]'>By Sarfraz Jasmin - 29 july,2023</p>
+                        
+                            <button className="btn btn-active border-none text-white mt-2 bg-black mr-5">continue reading</button>
                             
-                        </div>
+                        
 
                     </div>
                     </div>

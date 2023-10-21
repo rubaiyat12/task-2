@@ -2,7 +2,7 @@ import React from 'react';
 
 const SectionTitle = ({heading}) => {
     return (
-        <div className="mx-[150px]  md:w-[1800px]  ">
+        <div className="  ">
             
             <div className="divider w-1/2  ">{heading}</div>
             <div>

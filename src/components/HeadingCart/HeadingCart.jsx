@@ -18,14 +18,14 @@ const HeadingCart = () => {
         </div>
         <img
         className='max-h-[160px] md:max-h-[200px] w-full object-cover '
-          src={img4}
+          src={img3}
           alt='/'
         />
       </div>
       {/* Card */}
       <div className='rounded-xl relative'>
         {/* Overlay */}
-        <div className='absolute w-full h-full bg-black/50  text-white'>
+        <div className='absolute w-full h-full   text-white'>
          
         <button className='btn my-5 rounded-3xl btn-outline w-[84px]   border-white text-[#FFFFFF]  mx-8 absolute bottom-4'>HAIR</button>
         </div>
@@ -38,7 +38,7 @@ const HeadingCart = () => {
       {/* Card */}
       <div className='rounded-xl relative'>
         {/* Overlay */}
-        <div className='absolute w-full h-full bg-black/50  text-white'>
+        <div className='absolute w-full h-full   text-white'>
           
         <button className='btn my-5 rounded-3xl btn-outline w-[84px]   border-white text-[#FFFFFF]  mx-8 absolute bottom-4'>MAKEUP</button>
         </div>
@@ -51,7 +51,7 @@ const HeadingCart = () => {
       {/* Card */}
       <div className='rounded-xl relative'>
         {/* Overlay */}
-        <div className='absolute w-full h-full bg-black/50  text-white'>
+        <div className='absolute w-full h-full   text-white'>
           
         <button className='btn my-5 rounded-3xl btn-outline w-[84px]   border-white text-[#FFFFFF]  mx-8 absolute bottom-4'>TIPS</button>
         </div>
@@ -66,7 +66,7 @@ const HeadingCart = () => {
       {/* Card */}
       <div className='rounded-xl relative'>
         {/* Overlay */}
-        <div className='absolute w-full h-full bg-black/50  text-white'>
+        <div className='absolute w-full h-full   text-white'>
           
           <button className='btn my-5 rounded-3xl btn-outline w-[84px]   border-white text-[#FFFFFF]  mx-8 absolute bottom-4'>SPA</button>
         </div>

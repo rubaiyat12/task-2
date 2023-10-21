@@ -8,14 +8,14 @@ import Border from '../Border/Border';
 
 const RandomPost = () => {
     return (
-        <div className='mt-20 max-w-[900px] mx-auto '>
+        <div className='max-w-[900px] mx-auto -mt-[150px] '>
             <h2 className="mx-auto text-center mb-5">Random Post</h2>
             <div>
             <div className='mx-auto relative'>
                 <img  src={img1} alt="" srcset="" />
                 <div className=' px-4 py-8 bg-white border-2 border-black
                   shadow-lg  mx-auto absolute left-[330px] right-0 bottom-[120px]'>
-                    <p className='  '>Hair </p>
+                    <p className=' border-b border-[#1D1A1A] w-[30px]'>Hair </p>
                     <h1 >Sed dignissim quam nulla, at sodales elit venenatis at, In in fringla</h1>
                     <p>Donec eget leo laoreet, faucibus ante et, finibus orci, Nam pulvinar
                         felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a interdum facilisis....

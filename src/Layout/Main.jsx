@@ -7,6 +7,9 @@ import Latest from "../components/Latest/Latest";
 import RandomPost from "../components/RandomPost/RandomPost";
 import InstagramFeed from "../components/InstagramFeed/InstagramFeed";
 import Footer from "../components/Footer/Footer";
+import FooterBottom from "../components/FooterBottom/FooterBottom";
+import Morbi from "../components/Morbi/Morbi";
+
 
 
 
@@ -17,12 +20,17 @@ const Main = () => {
             <TopNavbar></TopNavbar>
             <Navbar></Navbar>
             <Banner></Banner>
+    
             <HeadingCart></HeadingCart>
+            
             <Latest></Latest>
+            <Morbi></Morbi>
+           
 
             <RandomPost></RandomPost>
             <InstagramFeed></InstagramFeed>
             <Footer></Footer>
+            <FooterBottom></FooterBottom>
             
             
             

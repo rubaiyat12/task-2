@@ -1,5 +1,6 @@
 
 
+
 const Footer = () => {
     return (
         <footer className="footer p-10 bg-base-200 text-base-content mt-20 max-w-[900px] mx-auto">
@@ -26,8 +27,10 @@ const Footer = () => {
     </div>
           </div>
         </fieldset>
+        
       
     </footer>
+    
     );
 };
 
