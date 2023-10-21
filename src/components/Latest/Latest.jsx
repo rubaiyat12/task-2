@@ -6,7 +6,13 @@ import img7 from '../../assets/cart/Image (7).png'
 const Latest = () => {
     return (
         <div>
-            <h2 className="mx-auto text-center mb-5">Latest Projects</h2>
+           <div className='relative mb-7'>
+  <hr className='text-black border-0 bg-black h-[3px]' style={{ zIndex: 1 }} />
+  <div className='absolute mx-auto' style={{ zIndex: 2 }}>
+    <h2 className="mx-auto text-center mb-5">Latest Projects</h2>
+  </div>
+</div>
+            
            <div className='grid lg:grid-cols-3 max-w-[900px] mx-auto gap-4 justify-between '>
 
            

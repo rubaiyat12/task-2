@@ -6,6 +6,7 @@ import HeadingCart from "../components/HeadingCart/HeadingCart";
 import Latest from "../components/Latest/Latest";
 import RandomPost from "../components/RandomPost/RandomPost";
 import InstagramFeed from "../components/InstagramFeed/InstagramFeed";
+import Footer from "../components/Footer/Footer";
 
 
 
@@ -21,6 +22,7 @@ const Main = () => {
 
             <RandomPost></RandomPost>
             <InstagramFeed></InstagramFeed>
+            <Footer></Footer>
             
             
             
