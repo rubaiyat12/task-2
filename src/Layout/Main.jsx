@@ -9,6 +9,7 @@ import InstagramFeed from "../components/InstagramFeed/InstagramFeed";
 import Footer from "../components/Footer/Footer";
 import FooterBottom from "../components/FooterBottom/FooterBottom";
 import Morbi from "../components/Morbi/Morbi";
+import PopularPost from "../components/PopularPost/PopularPost";
 
 
 
@@ -24,6 +25,7 @@ const Main = () => {
             <HeadingCart></HeadingCart>
             
             <Latest></Latest>
+            <PopularPost></PopularPost>
             <Morbi></Morbi>
            
 
