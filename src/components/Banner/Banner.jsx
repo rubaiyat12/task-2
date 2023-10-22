@@ -1,25 +1,26 @@
 
 
 import React, { useState } from 'react';
+import { AiOutlineArrowRight } from 'react-icons/ai';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-import { RxDotFilled } from 'react-icons/rx';
+// import { RxDotFilled } from 'react-icons/rx';
 
     const slides = [
       {
         url: 'https://i.ibb.co/kypDkDW/Image.png',
       },
       {
-        url: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80',
+        url: 'https://i.ibb.co/V3d92By/1.png',
       },
       {
-        url: 'https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80',
+        url: 'https://i.ibb.co/cx60nM2/2.png',
       },
   
       {
-        url: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80',
+        url: 'https://i.ibb.co/q1yqv8S/3.png',
       },
       {
-        url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
+        url: 'https://i.ibb.co/kypDkDW/Image.png',
       },
     ];
     
@@ -52,16 +53,17 @@ const Banner = () => {
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full  bg-center bg-cover duration-500'
       >
-        <div className=" flex items-center     text-center px-4 py-8  border-2 
-                  shadow-lg md:w-[480px] md:h-[326px] mx-auto absolute top-[230px] left-[450px] right-0 -bottom-14
+        <div className=" flex items-center  px-4 py-8  border-2 
+                  shadow-lg md:w-[480px] md:h-[326px]  absolute top-[230px] left-[580px] right-0 -bottom-14
                    ">
-                    <div className='text-white     border-white'>
+                    <div className='text-white mx-10    border-white'>
                         
-                    <p className='border-b w-[50px] text-[14px] mx-auto border-white  '>SKIN </p>
-                    <p className='md:font-bold'> Six Hyaluronic Serums For Glowing Summer Skin Vivamus Placerat.</p>
+                    <p className='border-b w-[50px] text-[14px]  border-white  '>SKIN </p>
+                    <p className='md:font-bold font-Vidaloka text-2xl '> Six Hyaluronic Serums For Glowing Summer Skin Vivamus Placerat.</p>
                     <p className='text-[12px]'>By Sarfraz Jasmin - 29 july,2023</p>
                         
-                            <button className="btn btn-active border-none text-white mt-2 bg-black mr-5">continue reading</button>
+                            <button className="btn btn-active border-none text-white mt-2 bg-transparent ">continue reading  <AiOutlineArrowRight></AiOutlineArrowRight></button>
+                           
                             
                         
 

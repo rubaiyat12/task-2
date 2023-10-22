@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
       
       
-        <div className="navbar  bg-base-100 ">
+        <div className="navbar md:w-[990px]  bg-base-100 ">
          
           
   <div className="navbar-start px-20 ">

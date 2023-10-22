@@ -3,6 +3,7 @@ import popular2 from '../../assets/cart/popular1.png'
 import img4 from '../../assets/cart/Image (4).png'
 import popular3 from '../../assets/cart/popular2.png'
 import popular4 from '../../assets/cart/popular3.png'
+import title from '../../assets/icon/Frame 18.png'
 
 
 
@@ -10,8 +11,11 @@ import popular4 from '../../assets/cart/popular3.png'
 
 const PopularPost = () => {
     return (
-        <div>
-             <div className='grid lg:grid-cols-3 max-w-[900px] mx-auto gap-4 justify-between '>
+        <div className=' md:w-[1100px] mx-auto'>
+          <div className='mb-6'>
+            <img src={title} alt="" />
+          </div>
+             <div className='grid lg:grid-cols-3  mx-auto gap-4 justify-between '>
 
            
 <div className='mx-auto relative'>

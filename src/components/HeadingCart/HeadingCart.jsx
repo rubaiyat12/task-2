@@ -1,14 +1,14 @@
 
 import img1 from '../../assets/cart/Image (1).png'
 import img2 from '../../assets/cart/Image (2).png'
-import img3 from '../../assets/cart/Image (3).png'
-import img4 from '../../assets/cart/Image (4).png'
+import img3 from '../../assets/cart/popular4.png'
+
 import img6 from '../../assets/cart/Image (6).png'
 
 
 const HeadingCart = () => {
     return (
-        <div className='max-w-[900px] mx-auto p-4 py-12 grid md:grid-cols-5 gap-6'>
+        <div className='md:w-[1100px] mx-auto p-4 py-12 grid md:grid-cols-5 gap-6'>
       {/* Card */}
       <div className='relative'>
         {/* Overlay */}
