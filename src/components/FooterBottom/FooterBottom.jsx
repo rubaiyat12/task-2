@@ -8,7 +8,7 @@ import frame6 from '../../assets/frame/Frame (3).png';
 import tag from '../../assets/frame/Tags.png';
 import bottom from '../../assets/frame/Footer Bottom.png';
 import pic1 from '../../assets/frame/frame.png';
-import pic2 from '../../assets/frame/frame (1).png';
+
 import top from '../../assets/frame/Footer Bottom Top.png';
 
 
@@ -50,7 +50,7 @@ const FooterBottom = () => {
     </div>
     <div className='flex '>
       <div className=''>
-        <img className='' src={pic2} alt="" />
+        <img className='' src={frame3} alt="" />
 
       </div>
       <div className='ml-2'>
