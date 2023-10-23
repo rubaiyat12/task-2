@@ -54,15 +54,15 @@ const Banner = () => {
         className='w-full h-full  bg-center bg-cover duration-500'
       >
         <div className=" flex items-center  px-4 py-8  border-2 
-                  shadow-lg md:w-[480px] md:h-[326px]  absolute top-[230px] left-[580px] right-0 -bottom-14
+                  shadow-lg md:w-[480px] md:h-[326px]  absolute top-[230px] left-[690px] right-0 -bottom-14
                    ">
                     <div className='text-white mx-10    border-white'>
                         
-                    <p className='border-b w-[50px] text-[14px]  border-white  '>SKIN </p>
-                    <p className='md:font-bold font-Vidaloka text-2xl '> Six Hyaluronic Serums For Glowing Summer Skin Vivamus Placerat.</p>
+                    <p className='border-b w-[32px] text-[14px] mb-4  border-white  '>SKIN </p>
+                    <p className='md:font-bold font-Vidaloka text-2xl mb-4'> Six Hyaluronic Serums For Glowing Summer Skin Vivamus Placerat.</p>
                     <p className='text-[12px]'>By Sarfraz Jasmin - 29 july,2023</p>
                         
-                            <button className="btn btn-active border-none text-white mt-2 bg-transparent ">continue reading  <AiOutlineArrowRight></AiOutlineArrowRight></button>
+                  <button className="btn  border-none  text-white mt-2 bg-transparent ">continue reading  <AiOutlineArrowRight></AiOutlineArrowRight></button>
                            
                             
                         

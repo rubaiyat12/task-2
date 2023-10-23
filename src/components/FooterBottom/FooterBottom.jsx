@@ -15,7 +15,11 @@ import top from '../../assets/frame/Footer Bottom Top.png';
 const FooterBottom = () => {
     return (
         <div className="max-w-[1440px] mx-auto bg-black">
-            <footer className="footer p-10  text-white">
+
+        
+
+
+            <footer className="footer md:w-[1100px] mx-auto pt-20   text-white">
   <nav className='w-[260px] h-[414px]'>
     <header className="footer-title text-white">CATEGORIES</header> 
     <a className="link link-hover border-b border-white  w-[150px]">Beauty<span className="mx-24">(4)</span></a> 
@@ -94,16 +98,17 @@ const FooterBottom = () => {
     </div>
   </nav>
 </footer> 
-<div className='border-t p-10'>
+<div className='border-t p-10 md:w-[1100px] mx-auto'>
   <img src={top} alt="" />
 </div>
-<div className='border-t p-10  text-white border-base-300'>
+<div className='border-t p-10 md:w-[1100px] mx-auto  text-white border-base-300'>
   <img src={bottom} alt="" />
 
 </div>
+</div>
 
             
-        </div>
+       
     );
 };
 

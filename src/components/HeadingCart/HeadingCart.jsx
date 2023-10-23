@@ -3,7 +3,7 @@ import img1 from '../../assets/cart/Image (1).png'
 import img2 from '../../assets/cart/Image (2).png'
 import img3 from '../../assets/cart/popular4.png'
 
-import img6 from '../../assets/cart/Image (6).png'
+import img6 from '../../assets/cart/Image (5).png'
 
 
 const HeadingCart = () => {

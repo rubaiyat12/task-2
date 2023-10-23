@@ -12,18 +12,18 @@ const RandomPost = () => {
     return (
         <div className='md:w-[1100px] mx-auto  '>
             
-            <div className='mx-10 md:w-[1200px] mt-10 mb-10'>
+            <div className='mx-10 md:w-[1200px] mt-20 mb-10'>
                 <img src={title} alt="" />
             </div>
             <div>
             <div className=' relative  '>
-                <img className='mx-10' src={img1} alt="" srcset="" />
+                <img className='' src={img1} alt="" srcset="" />
                 <div className=' px-10 py-20 bg-white border-2 border-black w-[666px] h-[368px]
-                  shadow-lg  mx-auto absolute left-[490px] right-0 bottom-[55px]'>
-                    <p className=' border-b border-[#1D1A1A] w-[58px]'>MAKEUP </p>
-                    <h1 className='font-Vidaloka text-2xl' >Sed dignissim quam nulla, at sodales elit venenatis at, In in fringla</h1>
-                    <p>Donec eget leo laoreet, faucibus ante et, finibus orci, Nam pulvinar
-                        felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a interdum facilisis....
+                  shadow-lg  mx-auto absolute left-[410px] right-0 bottom-[55px]'>
+                    <p className=' border-b border-[#1D1A1A] w-[58px] mb-4'>MAKEUP </p>
+                    <h1 className='font-Vidaloka text-2xl' >Sed dignissim quam nulla, at sodales elit <br /> venenatis at, In in fringla</h1>
+                    <p className='mb-8'>Donec eget leo laoreet, faucibus ante et, finibus orci, Nam pulvinar <br />
+                        felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a <br /> interdum facilisis....
                     </p>
                     <p>By Sarfraz Jasmin - 29 July, 2023</p>
 
@@ -37,10 +37,10 @@ const RandomPost = () => {
                 <img  className='mx-[500px]' src={img3} alt="" srcset="" />
                 <div className=' px-10 py-20 bg-white border-2 border-black w-[666px] h-[368px]
                   shadow-lg  mx-auto absolute right-[440px] left-0 bottom-[55px]'>
-                    <p className=' border-b border-[#1D1A1A] w-[30px]'>SPA</p>
-                    <h1 className='font-Vidaloka text-2xl' >Sed dignissim quam nulla, at sodales elit venenatis at, In in fringla</h1>
-                    <p>Donec eget leo laoreet, faucibus ante et, finibus orci, Nam pulvinar
-                        felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a interdum facilisis....
+                    <p className=' border-b border-[#1D1A1A] w-[30px] mb-4'>SPA</p>
+                    <h1 className='font-Vidaloka text-2xl' >Sed dignissim quam nulla, at sodales elit <br /> venenatis at, In in fringla</h1>
+                    <p className='mb-8'>Donec eget leo laoreet, faucibus ante et, finibus orci, Nam pulvinar <br />
+                        felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a <br /> interdum facilisis....
                     </p>
                     <p>By Sarfraz Jasmin - 29 July, 2023</p>
 
@@ -55,11 +55,11 @@ const RandomPost = () => {
             <div className='mx-auto relative'>
                 <img className=' '  src={img4} alt="" srcset="" />
                 <div className=' px-10 py-20 bg-white border-2 border-black  w-[666px] h-[368px]
-                  shadow-lg  mx-auto absolute left-[490px] right-0 bottom-[55px]'>
-                    <p className=' border-b border-[#1D1A1A] w-[58px]'>MakeUp </p>
-                    <h1 className='font-Vidaloka text-2xl' >Sed dignissim quam nulla, at sodales elit venenatis at, In in fringla</h1>
-                    <p>Donec eget leo laoreet, faucibus ante et, finibus orci, Nam pulvinar
-                        felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a interdum facilisis....
+                  shadow-lg  mx-auto absolute left-[410px] right-0 bottom-[55px]'>
+                    <p className=' border-b border-[#1D1A1A] w-[58px] mb-4'>MakeUp </p>
+                    <h1 className='font-Vidaloka text-2xl' >Sed dignissim quam nulla, at sodales elit <br /> venenatis at, In in fringla</h1>
+                    <p className='mb-8'>Donec eget leo laoreet, faucibus ante et, finibus orci, Nam pulvinar <br />
+                        felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a <br /> interdum facilisis....
                     </p>
                     <p>By Sarfraz Jasmin - 29 July, 2023</p>
 
@@ -72,10 +72,10 @@ const RandomPost = () => {
                 <img  className='mx-[500px] ' src={img6} alt="" srcset="" />
                 <div className=' px-10 py-20 bg-white border-2 border-black w-[666px] h-[368px]
                   shadow-lg  mx-auto absolute right-[440px] left-0 bottom-[55px]'>
-                    <p className=' border-b border-[#1D1A1A] w-[58px]'>MakeUp </p>
-                    <h1 className='font-Vidaloka text-2xl' >Sed dignissim quam nulla, at sodales elit venenatis at, In in fringla</h1>
-                    <p>Donec eget leo laoreet, faucibus ante et, finibus orci, Nam pulvinar
-                        felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a interdum facilisis....
+                    <p className=' border-b border-[#1D1A1A] w-[58px] mb-4'>MakeUp </p>
+                    <h1 className='font-Vidaloka text-2xl' >Sed dignissim quam nulla, at sodales elit <br /> venenatis at, In in fringla</h1>
+                    <p className='mb-8'>Donec eget leo laoreet, faucibus ante et, finibus orci, Nam pulvinar <br />
+                        felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a <br /> interdum facilisis....
                     </p>
                     <p>By Sarfraz Jasmin - 29 July, 2023</p>
 
@@ -87,11 +87,11 @@ const RandomPost = () => {
             <div className='mx-auto relative'>
                 <img className=' '  src={img7} alt="" srcset="" />
                 <div className=' px-10 py-20 bg-white border-2 border-black w-[666px] h-[368px]
-                  shadow-lg  mx-auto absolute left-[490px] right-0 bottom-[55px]'>
-                    <p className=' border-b border-[#1D1A1A] w-[40px]'>TIPS </p>
-                    <h1  className='font-Vidaloka text-2xl'>Sed dignissim quam nulla, at sodales elit venenatis at, In in fringla</h1>
-                    <p>Donec eget leo laoreet, faucibus ante et, finibus orci, Nam pulvinar
-                        felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a interdum facilisis....
+                  shadow-lg  mx-auto absolute left-[410px] right-0 bottom-[55px]'>
+                    <p className=' border-b border-[#1D1A1A] w-[40px] mb-4 '>TIPS </p>
+                    <h1  className='font-Vidaloka text-2xl'>Sed dignissim quam nulla, at sodales elit <br /> venenatis at, In in fringla</h1>
+                    <p className='mb-8'>Donec eget leo laoreet, faucibus ante et, finibus orci, Nam pulvinar <br />
+                        felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a <br /> interdum facilisis....
                     </p>
                     <p>By Sarfraz Jasmin - 29 July, 2023</p>
 
@@ -103,10 +103,10 @@ const RandomPost = () => {
                 <img  className='mx-[500px] ' src={img8} alt="" srcset="" />
                 <div className=' px-10 py-20 bg-white border-2 border-black w-[666px] h-[368px]
                   shadow-lg  mx-auto absolute right-[490px] left-0 bottom-[55px]'>
-                    <p className=' border-b border-[#1D1A1A] w-[58px]'>MakeUp </p>
-                    <h1 className='font-Vidaloka text-2xl' >Sed dignissim quam nulla, at sodales elit venenatis at, In in fringla</h1>
-                    <p>Donec eget leo laoreet, faucibus ante et, finibus orci, Nam pulvinar
-                        felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a interdum facilisis....
+                    <p className=' border-b border-[#1D1A1A] w-[58px] mb-4'>MakeUp </p>
+                    <h1 className='font-Vidaloka text-2xl' >Sed dignissim quam nulla, at sodales elit <br /> venenatis at, In in fringla</h1>
+                    <p className='mb-8'>Donec eget leo laoreet, faucibus ante et, finibus orci, Nam pulvinar <br />
+                        felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a <br /> interdum facilisis....
                     </p>
                     <p>By Sarfraz Jasmin - 29 July, 2023</p>
 
