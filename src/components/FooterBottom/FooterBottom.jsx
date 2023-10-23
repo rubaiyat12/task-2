@@ -1,7 +1,7 @@
 import logo from '../../assets/icon/Logo.png';
 import frame1 from '../../assets/frame/Frame.png';
 import frame2 from '../../assets/frame/Image (3).png';
-import frame3 from '../../assets/frame/Frame (1).png';
+import frame3 from '../../assets/frame/frame (1).png';
 import frame4 from '../../assets/frame/Rectangle 8.png';
 import frame5 from '../../assets/frame/Frame (2).png';
 import frame6 from '../../assets/frame/Frame (3).png';
@@ -73,7 +73,7 @@ const FooterBottom = () => {
   </nav> 
   <nav>
     <header className="footer-title">GALLERY</header> 
-    <div className='grid lg:grid-cols-3 gap-1 max-w-[332px] h-[216]'>
+    <div className='grid lg:grid-cols-3 gap-1 max-w-[332px] h-[216] mt-10'>
       <div>
         <img src={frame1} alt="" />
       </div>
